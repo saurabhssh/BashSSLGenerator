@@ -4,10 +4,12 @@ A bash shell script to generate private key, CSR &amp; Self Signed Certificates 
 Uncommment line number 175 to generate self signed certificates.
 
 Execution Steps:
-1.First Verify that 'ssls' folder exist in your HOME Directory & 'cd ssls' to move into ssls folder.Make sure 
-  you also move your script to ssls folder
-   	chmod 777 sslgen.sh
-	./sslgen.sh <common_Name>
+
+1.First Verify that 'ssls' folder exist in your HOME Directory & 'cd ssls' to move into ssls folder.Make sure you also move your script to ssls folder.
+
+chmod 777 sslgen.sh
+
+./sslgen.sh <common_Name>
 
   Common name is mandatory, as script wont run without it.
   Extensions like .key , .csr & .crt will be taken care by script. Please do not enter it with common name.
